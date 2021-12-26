@@ -1,0 +1,134 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Me";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="banner-bottom" id="about">
+    <div class="container">
+        <div class="inner-sec">
+            <div class="row middle-grids">
+                <div class="col-lg-4 advantage-grid-info1">
+                    <div class="advantage_left1 text-center">
+                        <img src="~/images/me.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 advantage-grid-info">
+                    <div class="advantage_left">
+                        <h1 class="heading text-capitalize mb-sm-5 mb-4">@localizer["Hi"]. @localizer["I'm"] <span>Amir Owda.</span></h1>
+                        <p class="mt-4">
+                           @localizer["i am from palestine , i am 22 years old ,i know some programming languagaes such as c++, java, c# and others ,i study in turkey and have some plans to do after graduation."]
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Amazing Divider-->
+    <hr class="progress">
+    <!-- /Amazing Divider-->
+    <h1 style=" text-align:center;padding-bottom:40px; padding-top:80px; font-family:sans-serif ">
+        @localizer["More Information About My Skills"]
+    </h1>
+    <!-- Maybe i can add a divider-->
+    <h2 style="padding-bottom:80px">@localizer["In Programming"]</h2>
+    <div class="clearfix">
+
+        <div style="margin-left:120px" class="c100 p95  ">
+            <span>95%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+
+        </div>
+        <div style="margin-left:50px" class="c100 p75 ">
+            <span>75%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div style="margin-left:50px" class="c100 p80 ">
+            <span>80%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div style="margin-left:50px" class="c100 p69 ">
+            <span>69%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div style="margin-left:50px" class="c100 p93 ">
+            <span>93%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+    </div>
+    <table width="500px">
+
+        <td style="padding-left:180px; font-size:20px;">C++</td>
+        <td style="padding-left: 150px; font-size:20px;">HTML</td>
+        <td style="padding-left: 120px; font-size: 20px;">CSS</td>
+        <td style="padding-left: 140px; font-size: 20px;">java</td>
+        <td style="padding-left: 120px; font-size: 20px;">C#</td>
+    </table>
+    <br />
+    <br />
+    <br />
+    <!-- Amazing Divider-->
+    <hr class="progress">
+    <!-- /Simple Divider -->
+    <!-- About my Languages-->
+    <h2 style=" padding-bottom:80px; font-family:sans-serif">@localizer["In Languages"]</h2>
+    <div class="clearfix">
+
+        <div style="margin-left: 100px;" class="c100 p99 big">
+            <span>99%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+
+        </div>
+        <div style="margin-left: 100px;" class="c100 p93 big">
+            <span>93%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div style="margin-left: 100px;" class="c100 p65 big">
+            <span>65%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+
+    </div>
+    <table width="500px">
+
+        <td style="padding-left:180px; font-size:20px;">@localizer["Arabic"]</td>
+        <td style="padding-left: 320px; font-size:20px;">@localizer["English"]</td>
+        <td style="padding-left: 280px; font-size: 20px;">@localizer["Turkish"]</td>
+
+    </table>
+
+
+
+
+
+
+</section>
+
+
